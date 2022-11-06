@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-  color: white; background-size: 375px; background-image:url("B.png") ;
+  color: white; background-size: cover; background-image:url("B.png") ; background-repeat: no-repeat;
 }
 nav{
    width: 100%; 
-   height: 30px;  background-color: black;
+   height: 50px;  background-color: black;
    border: 2px solid black;
    display: flex;
    align-items: center;
@@ -23,11 +23,11 @@ ul li{
 a{
 text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     margin: 0px 5px 0px 5px;
 }
 #logi{
-    font-size: 16px;
+    font-size: 28px;
     padding-left: 5px;
     color: #fba92c;
 }
@@ -38,9 +38,9 @@ text-decoration: none;
     margin-right: 5px;
 }
 #t{
-font-size: 35px;
+font-size: 150px;
     position: relative;
-    top: 300px;
+    top: 800px;
     padding-left: 10px;
     -webkit-text-stroke: 2px solid azure;
     z-index: 2;
@@ -54,8 +54,8 @@ font-size: 35px;
     justify-content: space-around;
 }
 .b{
-    width: 15px;
-   height: 15px; 
+    width: 35px;
+   height: 35px; 
    border-radius: 50%;
    background-color: #fba92c ;
    animation: up 10s linear infinite;
@@ -82,18 +82,18 @@ font-size: 35px;
     background-color: gainsboro;
 }
 .b:nth-child(1){
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
     animation-delay: 9.5s;
 }
 .b:nth-child(2){
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     animation-delay: 8s;
 }
 .b:nth-child(3){
-    width: 15px;
-    height: 15px;
+    width: 65px;
+    height: 65px;
     animation-delay: 12s;
 }
 .b:nth-child(4){
@@ -102,13 +102,13 @@ font-size: 35px;
     animation-delay: 3s;
 }
 .b:nth-child(5){
-    width: 27px;
-    height: 27px;
+    width: 57px;
+    height: 57px;
     animation-delay: 9s;
 }
 .b:nth-child(6){
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     animation-delay: 15s;
 }
 .b:nth-child(7){
@@ -117,8 +117,8 @@ font-size: 35px;
     animation-delay: 17s;
 }
 .b:nth-child(8){
-    width: 47px;
-    height: 47px;
+    width: 27px;
+    height: 27px;
     animation-delay: 13s;
 }
 .b:nth-child(9){
@@ -127,8 +127,8 @@ font-size: 35px;
     animation-delay: 15s;
 }
 .b:nth-child(10){
-    width: 26px;
-    height: 26px;
+    width: 66px;
+    height: 66px;
     animation-delay: 19s;
 }
 .b:nth-child(11){
