@@ -23,8 +23,8 @@ ul li{
 a{
 text-decoration: none;
     color: white;
-    font-size: 25px;
-    margin: 0px 5px 0px 5px;
+    font-size: 30px;
+    margin: 0px 35px 0px 35px;
 }
 #logi{
     font-size: 28px;
@@ -38,9 +38,9 @@ text-decoration: none;
     margin-right: 5px;
 }
 #t{
-font-size: 150px;
+font-size: 100px;
     position: relative;
-    top: 800px;
+    top: 650px;
     padding-left: 10px;
     -webkit-text-stroke: 2px solid azure;
     z-index: 2;
@@ -82,8 +82,8 @@ font-size: 150px;
     background-color: gainsboro;
 }
 .b:nth-child(1){
-    width: 45px;
-    height: 45px;
+    width: 105px;
+    height: 105px;
     animation-delay: 9.5s;
 }
 .b:nth-child(2){
@@ -107,8 +107,8 @@ font-size: 150px;
     animation-delay: 9s;
 }
 .b:nth-child(6){
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 90px;
     animation-delay: 15s;
 }
 .b:nth-child(7){
@@ -122,8 +122,8 @@ font-size: 150px;
     animation-delay: 13s;
 }
 .b:nth-child(9){
-    width: 15px;
-    height: 15px;
+    width: 85px;
+    height: 85px;
     animation-delay: 15s;
 }
 .b:nth-child(10){
