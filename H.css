@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  color: white; background-size: cover; background-image:url("B.png") ;
+  background-repeat: no-repeat;
+}
+nav{
+   width: 100%; 
+   height: 60px;  background-color: black;
+   border: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+a{
+text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0px 35px 0px 20px;
+}
+#logi{
+    font-size: 35px;
+    padding-left: 10px;
+    color: #fba92c;
+}
+#bt{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+    padding: 5px;
+}
+#t{
+font-size: 75px;
+    position: relative;
+    top: 800px;
+    padding-left: 10px;
+    margin-left: 50px;-webkit-text-stroke: 1px black;
+    z-index: 2;
+}
+#bubs{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.b{
+    width: 15px;
+   height: 15px; 
+   border-radius: 50%;
+   background-color: #fba92c ;
+   animation: up 10s linear infinite;
+   opacity: 0;
+   z-index: 1;
+}
+@keyframes up {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+     
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-80vh);
+    }
+}
+.b.e{
+    background-color: gainsboro;
+}
+.b:nth-child(1){
+    width: 105px;
+    height: 105px;
+    animation-delay: 19.5s;
+}
+.b:nth-child(2){
+    width: 85px;
+    height: 85px;
+    animation-delay: 8s;
+}
+.b:nth-child(3){
+    width: 75px;
+    height: 75px;
+    animation-delay: 10.9s;
+}
+.b:nth-child(4){
+    width: 95px;
+    height: 95px;
+    animation-delay: 18.5s;
+}
+.b:nth-child(5){
+    width: 57px;
+    height: 57px;
+    animation-delay: 9s;
+}
+.b:nth-child(6){
+    width: 70px;
+    height: 70px;
+    animation-delay: 15s;
+}
+.b:nth-child(7){
+    width: 34px;
+    height: 34px;
+    animation-delay: 7s;
+}
+.b:nth-child(8){
+    width: 47px;
+    height: 47px;
+    animation-delay: 13s;
+}
+.b:nth-child(9){
+    width: 208px;
+    height: 208px;
+    animation-delay: 38s;
+}
+.b:nth-child(10){
+    width: 66px;
+    height: 66px;
+    animation-delay: 22s;
+}
+.b:nth-child(11){
+    width: 55px;
+    height: 55px;
+    animation-delay: 8.97s;
+}
