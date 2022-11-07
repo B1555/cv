@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: ;
+}
+body{
+background-color: black; color: white;
+}
+nav{
+    background-color: #fba92c;
+    width: 100%;
+    height: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    color: white;
+}
+
+h3 a{
+text-decoration: none; color: white;
+font-size: 35px;
+ }
+ a{
+     color: white;
+ }
+ form{
+     width: 750px;
+     
+ }
+ fieldset{
+     height: 1300px;
+     border: 5px solid white;
+     
+ }
+ input, select, textarea, label{
+     display: block;
+     margin-left: 100px;
+ }
+ label{
+     font-size: 35px;
+     
+   margin-bottom: 20px;
+ }
+ legend{
+     font-size: 50px;
+ }
+ input, select{
+     width: 400px;
+     height: 35px;
+ }
+ #s{
+     margin-top: 50px;
+ }
+ textarea{
+     width: 400px;
+ }
+input, select, textarea{
+    margin-top: 20px;
+}
+#sb{
+   margin-top: 90px;
+}
